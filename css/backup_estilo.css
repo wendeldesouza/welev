@@ -1,0 +1,169 @@
+*{
+  
+  margin:auto0px;
+  padding:0px;
+  font-family:Candara;
+}
+
+
+.principal{
+  
+  background-image: url(../img/back.png);
+  max-width: 3200px;
+  margin:auto;
+  margin-top: 20px;
+  padding:10px;
+  border:10px solid #000080;
+  border-radius;
+  
+}
+
+
+header{
+  
+  background-color:#87CEFA;
+  width:1200px;
+  height:200px ;   
+}
+
+
+nav{
+  
+  background-color:#4682B4;
+  margin-top:10px;
+  width:1200px;
+  height:50px ; 
+  
+}
+
+.conteudo/*section principal do produto*/{
+  
+   background-color:#4682B4;
+   margin-top:10px;
+   width:900px;
+   height:500px;
+   float:left;
+  
+    
+}
+
+.imgColchao/*formatação da imagem*/{
+  
+  background-color: #8B008B;
+  width:92%;
+  height:70%;
+  margin-left:2%;
+  
+}
+button{
+  margin-left:3%;
+  
+}
+#slider/*previous/next*/{
+  
+  margin-top:20px;
+  height:90%;
+  width:65%;
+  transition: 3s;  
+}
+
+
+ #image1,#image2,#image3,#image4,#image5,#image6{
+  margin:2%;
+  background-color:#ccc;
+  height:17%;
+  width:12%;
+  float:left; 
+  transition: 1s;  
+}
+
+#image1{
+  background-image: url(../_img/colchao1/borda1.jpg);
+  
+}
+#image2{
+  background-image: url(../_img/colchao1/borda1.1.jpg);
+  
+}
+
+#image3{
+  background-image: url(../_img/colchao1/cima1.jpg);
+}
+
+#image4{
+  background-image: url(../_img/colchao1/Colchao_ortobom_physical_mega_resistente.jpg);
+}
+
+#image1:hover{
+  background-position: 50% 10%;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+   transform: scale(1.5);
+ transition: 1s;
+}
+
+#image2:hover{
+ background-position: 50% 10%;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+   transform: scale(1.5);
+ transition: 1s;
+}
+#image3:hover{
+  background-position: 50% 10%;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+   transform: scale(1.5);
+ transition: 1s;
+}
+#image4:hover{
+background-position: 50% 10%;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+   transform: scale(1.5);
+ transition: 1s;
+}
+
+#image5:hover{
+ background-position: 50% 10%;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+   transform: scale(1.5);
+ transition: 1s;
+}
+#image6:hover{
+  background-position: 50% 10%;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+   transform: scale(1.5);
+ transition: 1s;
+}
+
+#slider:active{
+  -webkit-transform: scale(1.0);
+  -ms-transform: scale(1.0);
+   transform: scale(1.0);
+  transition: 3s;
+}
+
+aside{
+  background-color:#4682B4;
+  margin-top:10px;
+  width:290px;
+  margin-left: 10px;
+  height:500px;
+  float: left;
+  margin-bottom:10px;
+  
+  
+  
+}
+
+footer{
+ background-color:#483D8B;
+ margin-top: 10px;
+ width:1200px;
+ height: 60px;
+ clear:both;
+  
+}
